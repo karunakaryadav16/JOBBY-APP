@@ -1,0 +1,13 @@
+.label {
+  color: #ffffff;
+  font-size: 18px;
+}
+.checkbox {
+  width: 17px;
+  height: 17px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.checkbox-list {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,135 @@
+.job-card {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.company-profile-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  height: 70px;
+  width: 70px;
+}
+.position-rating-container {
+  margin-left: 20px;
+}
+.job-title {
+  color: #ffffff;
+  font-size: 20px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.job-rating {
+  color: #ffffff;
+  margin-left: 5px;
+}
+.star {
+  color: #fbbf24;
+}
+.location-emp-type-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+}
+.employment-type-container {
+  display: flex;
+  align-items: center;
+}
+.location-type-container {
+  display: flex;
+}
+.location-container {
+  margin-right: 10px;
+}
+.employment-type-container {
+  margin-left: 10px;
+}
+.location-icon {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+}
+.location {
+  color: #ffffff;
+  margin-left: 3px;
+}
+.job-type-icon {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+}
+
+.emp-type {
+  color: #ffffff;
+  margin-left: 8px;
+}
+.package {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+.line {
+  color: #cbd5e1;
+}
+.description-heading {
+  color: #ffffff;
+}
+.description {
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .job-card {
+    padding: 15px;
+  }
+  .company-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .job-title {
+    font-size: 15px;
+    margin: 0;
+  }
+  .job-rating {
+    margin: 5px 5px;
+  }
+  .location-container {
+    margin-right: 5px;
+  }
+  .location {
+    font-size: 12px;
+  }
+  .location-icon {
+    height: 12px;
+    width: 12px;
+  }
+  .job-type-icon {
+    height: 12px;
+    width: 12px;
+  }
+  .emp-type {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .employment-type-container {
+    margin-left: 5px;
+  }
+  .package {
+    font-size: 16px;
+  }
+  .description-heading {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
